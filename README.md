@@ -14,3 +14,11 @@ and run it with
 ```
 ./NSKeyedArchiveViewer <archive-path>
 ```
+
+## Comparison
+
+For comparison, here is the output of `plutil`, `defaults`, and `NSKeyedArchiveViewer`. Which one is more readable?
+
+* [`plutil -p <archive>`](doc/dump-plutil.md)
+* [`defaults read <archive>`](doc/dump-defaults.md) (`<archive>` **must** be absolute path for this to work!)
+* [`NSKeyedArchiveViewer <archive>`](doc/dump-NSKeyedArchiveViewer.md)
